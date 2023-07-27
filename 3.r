@@ -30,5 +30,3 @@ new.df$Illiteracy.Levels
 #g
 x<-subset(new.df,reg =="West" & Illiteracy.Levels =="Low")
 row.names(x[which.max(x$Income),])
-
-# error in last 2
