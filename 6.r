@@ -16,14 +16,6 @@ replace_with_na <- function(data_frame, value) {
     return(data_frame)
 }
 
-# Create a sample data frame
-df <- data.frame(
-    col1 = c(1, 2, 3, 4),
-    col2 = c("a", "b", "c", "d"),
-    col3 = c(5, 6, 7, 8)
-)
-# Print the original data frame
-print(df)
 # Call the replace_with_na function to replace "b" with NA
 df_new <- replace_with_na(df, "b")
 # Print the modified data frame
